@@ -1,5 +1,13 @@
 {
   "name": "ninoslavjaric/map-pin-generator",
   "description": "This is cool",
-  "homepage": "http://github.com/ninoslavjaric/map-pin-generator"
+  "homepage": "http://github.com/ninoslavjaric/map-pin-generator",
+  "authors": [
+    {
+      "name": "Ninoslav Jaric"
+    }
+  ],
+  "psr-4":{
+    "Logic\\":"src/Logic"
+  }
 }
