@@ -7,7 +7,9 @@
       "name": "Ninoslav Jaric"
     }
   ],
-  "psr-4":{
-    "Logic\\":"src/Logic"
+  "autoload":{
+    "psr-4":{
+      "Logic\\":"src/Logic"
+    }
   }
 }
