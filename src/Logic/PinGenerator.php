@@ -14,6 +14,8 @@ use \ImagickPixel;
 class PinGenerator
 {
     public static function getStripedPin($resource, Array $colors, $width = null){
+        $navigator = new Navigator;
+
         $colNumber = count($colors);
         $image = realpath($resource);
 
@@ -22,8 +24,8 @@ class PinGenerator
         $width = $width ? $width : 40;
         $height = $width/$wph;
 
-        $pinMask = new Imagick(realpath("patterns/pin.png"));
-        $circleMask = new Imagick(realpath("patterns/circle.png"));
+        $pinMask = new Imagick($navigator->getPinPatternPath());
+        $circleMask = new Imagick($navigator->getCirclePatternPath());
         $image = new Imagick($image);
 
         $pinMask->scaleImage($width, $height);

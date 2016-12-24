@@ -7,6 +7,9 @@
       "name": "Ninoslav Jaric"
     }
   ],
+  "require":{
+    "php":">=5.3.0"
+  },
   "autoload":{
     "psr-4":{
       "Logic\\":"src/Logic"
