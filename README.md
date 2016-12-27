@@ -27,3 +27,6 @@ echo $pin;
 | Method        | Static | Parameters | Description |
 | ------        | ------ | ---------- | ----------  |
 | getStripedPin | true   | imageUrl, Array colors, pinWidth = null | Gets striped pin blob content according to rgb color expressions. |
+
+### Example output
+![alt tag](https://raw.githubusercontent.com/ninoslavjaric/map-pin-generator/master/src/Resources/example.png)
