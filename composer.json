@@ -1,6 +1,7 @@
 {
   "name": "ninoslavjaric/map-pin-generator",
   "description": "This is cool",
+  "version" : "0.1.0",
   "homepage": "http://github.com/ninoslavjaric/map-pin-generator",
   "authors": [
     {
