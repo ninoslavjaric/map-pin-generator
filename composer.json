@@ -5,7 +5,8 @@
   "homepage": "http://github.com/ninoslavjaric/map-pin-generator",
   "authors": [
     {
-      "name": "Ninoslav Jaric"
+      "name": "Ninoslav Jaric",
+      "email" : "jaricninoslav@gmail.com"
     }
   ],
   "require":{
