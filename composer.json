@@ -3,6 +3,7 @@
   "description": "This is cool",
   "version" : "0.1.0",
   "homepage": "http://github.com/ninoslavjaric/map-pin-generator",
+  "license": "MIT",
   "authors": [
     {
       "name": "Ninoslav Jaric",
