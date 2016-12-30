@@ -6,7 +6,7 @@ The first version of this library generates striped pins that point location of 
 
 By composer.
 ```
-composer require ninoslavjaric/map-pin-generator dev-master
+composer require ninoslavjaric/map-pin-generator
 ```
 ## Implementation
 
