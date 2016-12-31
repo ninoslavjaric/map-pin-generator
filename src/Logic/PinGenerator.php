@@ -18,7 +18,6 @@ class PinGenerator
 
         $colNumber = count($colors);
         $image = realpath($resource);
-
         $wph = 8/11;
 
         $width = $width ? $width : 40;
